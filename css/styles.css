@@ -165,18 +165,20 @@ body {
 footer {
     background: #2F303A;
 }
-
-.footer-address {
+.footer-link {
     font-weight: normal;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
+}
+.footer-link:hover, 
+.footer-link:focus
+{
+    color: var(--accent-color);
+} 
+.footer-address {
     color: #FFFFFF;
 }
 .footer-tel {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: calc (24/14);
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
